@@ -88,13 +88,13 @@ if(!isset($user_id)){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>login now</h3>
+      <h3>Login Now</h3>
       <label class="label">Email:</label>
-      <input type="email" name="email" class="box" placeholder="enter your email" required>
+      <input type="email" name="email" class="box" placeholder="Enter your email" required>
       <label class="label">Password:</label>
-      <input type="password" name="pass" class="box" placeholder="enter your password" required>
-      <input type="submit" class="btn" name="submit" value="login now">
-      <p>don't have an account? <a href="register.php">register now</a></p>
+      <input type="password" name="pass" class="box" placeholder="Enter your password" required>
+      <input type="Submit" class="btn" name="submit" value="login now">
+      <p>Don't have an account? <a href="register.php">Register Now</a></p>
    </form>
 
 </section>

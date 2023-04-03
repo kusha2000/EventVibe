@@ -51,7 +51,7 @@ html{
 }
 
 body{
-   background: var(--light-bg);
+   background-color: white;
 }
 
 
@@ -190,7 +190,7 @@ section{
 
 /*This is css styles for login.php
   -----------------------------------------------*/
-
+/*
 .form-container{
    display: flex;
    justify-content: center;
@@ -250,6 +250,65 @@ section{
 .form-container form p a:hover{
    text-decoration: underline;
 }
+
+*/
+
+.form-container {
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   padding: 20px;
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+   margin-top: 20px;
+ }
+ 
+ .form-container h3 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .form-container label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+ 
+ .form-container .box {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   margin-bottom: 20px;
+ }
+ 
+ .form-container .btn {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #4CAF50;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   margin-bottom: 20px;
+   font-size: 16px;
+ }
+ 
+ .form-container p {
+   text-align: center;
+ }
+ 
+ .form-container a {
+   color: #4CAF50;
+ }
+ 
+ .form-container a:hover {
+   text-decoration: underline;
+ }
 /*This is css styles for register_planners.php and register.php 
   ------------------------------------------------------------*/
 
@@ -554,6 +613,9 @@ section{
    outline:none;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
+   font-size: 12.5px;
+   padding-left: 15px;
+   
 }
 #hero .col1 form .btn{
    width:110px;
@@ -562,6 +624,8 @@ section{
    color:#fff;
    margin:0;
    text-align: left;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
    
 }
 

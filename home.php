@@ -98,7 +98,7 @@ if(!isset($user_id)){
         <div class="col col1">
             <h2>Find the best event planner.</h2>
             <form action="" method="POST" >
-                <input type="text" class="box" name="search" placeholder="what type of event planner you are looking for?">
+                <input type="text" class="box" name="search" placeholder="What type of event planner you are looking for?">
                 <input type="submit" class="btn" name="search-result" value="search" ">
                 
                 <?php
@@ -112,7 +112,7 @@ if(!isset($user_id)){
         <div class="col col2">
             <div class="sub-cols">
                 <div class="t1">
-                    <img src="images/img1.png" class="img1">
+                    <img src="images/img8.png" class="img1">
                     <img src="images/img4.png" class="img2">
                 </div>
                 <div class="t2">
