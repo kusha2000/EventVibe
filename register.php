@@ -103,26 +103,26 @@ if(!isset($user_id)){
    <form action="" method="post">
       <label class="label">First Name:</label>
       <label class="label" style="margin-left:39%">Last Name:</label><br>
-      <input type="text" style="width:47%"  name="fname" class="box" placeholder="enter your first name" required>
-      <input type="text" style="width:47%;margin-left:5%" name="lname" class="box" placeholder="enter your last name" required><br>
+      <input type="text" style="width:47%"  name="fname" class="box" placeholder="Enter your first name" required>
+      <input type="text" style="width:47%;margin-left:5%" name="lname" class="box" placeholder="Enter your last name" required><br>
       <label class="label">NIC:</label><br>
-      <input type="text" style="width:75%" name="nic" class="box" placeholder="enter your NIC" required><br>
+      <input type="text" style="width:75%" name="nic" class="box" placeholder="Enter your NIC" required><br>
       <label class="label">Tel No:</label><br>
-      <input type="text" style="width:75%" name="tno" class="box" placeholder="enter your telephone number"><br>
+      <input type="text" style="width:75%" name="tno" class="box" placeholder="Enter your telephone number"><br>
       <label class="label">Email:</label><br>
-      <input type="email" style="width:75%" name="email" class="box" placeholder="enter your email" required><br>
+      <input type="email" style="width:75%" name="email" class="box" placeholder="Enter your email" required><br>
       <label class="label">User Name:</label><br>
-      <input type="text" style="width:75%" name="name" class="box" placeholder="enter your username" required><br>
+      <input type="text" style="width:75%" name="name" class="box" placeholder="Enter your username" required><br>
       <label class="label">Password:</label>
       <label class="label" style="margin-left:39%">Re-Password:</label><br>
-      <input type="password" style="width:47%" name="pass" class="box" placeholder="enter your password" required>
-      <input type="password" style="width:47%;margin-left:5%" name="cpass" class="box" placeholder="confirm your password" required><br>
+      <input type="password" style="width:47%" name="pass" class="box" placeholder="Enter your password" required>
+      <input type="password" style="width:47%;margin-left:5%" name="cpass" class="box" placeholder="Confirm your password" required><br>
       <label class="label">About You:</label><br>
-      <textarea name="about" style="width:100%" class="box" required placeholder="enter description about you" cols="1" rows="7"></textarea><br>
+      <textarea name="about" style="width:100%" class="box" required placeholder="Enter description about you" cols="1" rows="7"></textarea><br>
       <label class="label">Your Image:</label><br>
       <input type="file" accept="image/jpg, image/jpeg, image/png" class="box" name="image"><br>
-      <input type="submit" style="margin-left:40%" class="btn" name="submit-user" value="register now">
-      <p style="margin-left:30%">already have an account? <a href="login.php">login now</a></p>
+      <input type="submit" style="margin-left:40%" class="btn" name="submit-user" value="Register Now">
+      <p style="margin-left:30%">Already have an account? <a href="login.php">Login Now</a></p>
    </form>
 
 </section>
