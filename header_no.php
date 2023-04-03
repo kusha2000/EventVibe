@@ -15,12 +15,15 @@ if(isset($message)){
 
     <div class="flex">
 
+
         <a href="home.php" ><img src="images/logo.png" class="logo"></a>
 
         <nav class="navbar">
             <ul>
                 
-                <li><a href="#">Events ﹀</a>
+                <li><a href="#">Events 
+                    <img src="images/dropdown" width=20px class="dropdown" class="grayscale" title="grayscale">
+                </a>
                     <ul class="set1">
                         <li><a href="events.php?update=Weddings">Weddings</a></li>
                         <li><a href="events.php?update=Corprate events">Corprate events</a></li>
@@ -60,7 +63,7 @@ if(isset($message)){
         <div class="navbar">
             <ul>
                 <li><a href="register_planners.php" class="become">Become an Event Planner</a></li>
-                <li><a href="login.php">Login</a></li>
+                <li><a href="login.php" class="login1">Login</a></li>
                 <li><a href="register.php" class="become">Sign up</a></li>
             </ul>
         </div>   
