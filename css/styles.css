@@ -560,7 +560,7 @@ section{
 
 .header .flex .icons > *{
    font-size: 2.5rem;
-   margin-left: 1rem;
+   margin-left: 2rem;
    color:var(--black);
    cursor: pointer;
 }
@@ -1495,15 +1495,16 @@ section{
    grid-template-columns: repeat(auto-fit, 33rem);
    gap:10rem;
    align-items: flex-start;
-   justify-content: center;
+   justify-content: space-between;
+   
 }
 
 .shopping-cart .box-container .box{
    padding:2rem;
    text-align: center;
-   background-color: var(--black);
-   border:var(--border);
-   box-shadow: var(--box-shadow);
+   background-color: white;
+   
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    border-radius: .5rem;
    position: relative;
    height: 50rem;
@@ -1513,7 +1514,10 @@ section{
    background-color: var(--green);
    border-radius: .5rem;
    color:var(--white);
+   margin-top: 5px;
    padding:1rem;
+   margin-left: 30px;
+   margin-right: 30px;
    font-size: 1.2rem;
 }
 
@@ -1557,13 +1561,13 @@ section{
 
 .shopping-cart .box-container .box .name{
    font-size: 2rem;
-   color:var(--orange);
+   color:#4CAF50;
    margin:1rem 0;
 }
 
 .shopping-cart .box-container .box .pack{
    font-size: 1.5rem;
-   color:greenyellow;
+   color:black;
    margin:.5rem 0;
 }
 
@@ -1605,6 +1609,10 @@ section{
 
 .shopping-cart .cart-total p span{
    color:var(--red);
+}
+
+.shopping-cart .cart-total .btn{
+
 }
 
 
@@ -2026,7 +2034,7 @@ section{
 }
 
 .events .flex .products .box-container .box{
-   background-color: #f1f1f1;
+   background-color: white;
    
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
@@ -2034,7 +2042,7 @@ section{
    height:30rem;
    width:30rem;
    position: relative;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    
 }
 

@@ -39,7 +39,7 @@ if(!isset($user_id)){
 
 <section class="heading">
     <h3>about us</h3>
-    <p> <a href="home.php">home</a> / about </p>
+    <p> <a href="home.php">Home</a> / About </p>
 </section>
 
 <section class="about">
@@ -51,9 +51,9 @@ if(!isset($user_id)){
         </div>
 
         <div class="content">
-            <h3>why choose us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="shop.php" class="btn">shop now</a>
+            <h3>Why choose us?</h3>
+            <p>Choose us for your event planning needs! We provide a wide range of vetted vendors, save you time and offer competitive pricing. Our platform ensures quality services and easy communication. Let's plan your dream event together!</p>
+            <a href="shop.php" class="btn">Shop now</a>
         </div>
 
     </div>
@@ -61,9 +61,9 @@ if(!isset($user_id)){
     <div class="flex">
 
         <div class="content">
-            <h3>what we provide?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="contact.php" class="btn">contact us</a>
+            <h3>What we provide?</h3>
+            <p>We provide a comprehensive platform for event planners to connect with vetted vendors and suppliers. Our services include a wide range of vendors, time-saving solutions, quality assurance, competitive pricing, and easy communication. Let us help you plan your dream event!</p>
+            <a href="contact.php" class="btn">Contact us</a>
         </div>
 
         <div class="image">
@@ -79,9 +79,9 @@ if(!isset($user_id)){
         </div>
 
         <div class="content">
-            <h3>who we are?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="#reviews" class="btn">clients reviews</a>
+            <h3>Who we are?</h3>
+            <p>We are an online marketplace for event planners. Our platform connects event planners with the best vendors and suppliers in the industry, offering a one-stop-shop for all their event planning needs. We strive to provide quality services, competitive pricing, and easy communication, making event planning as stress-free and enjoyable as possible.</p>
+            <a href="#reviews" class="btn">Clients Reviews</a>
         </div>
 
     </div>
@@ -90,7 +90,7 @@ if(!isset($user_id)){
 
 <section class="reviews" id="reviews">
 
-    <h1 class="title">client's reviews</h1>
+    <h1 class="title">Client's Reviews</h1>
 
     <div class="box-container">
 
@@ -104,7 +104,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
@@ -117,7 +117,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
@@ -130,7 +130,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
@@ -143,7 +143,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
@@ -156,7 +156,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
         <div class="box">
@@ -169,7 +169,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
         </div>
 
     </div>

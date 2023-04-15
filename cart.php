@@ -50,13 +50,13 @@ if(isset($_POST['update_quantity'])){
 <?php @include 'header.php'; ?>
 
 <section class="heading">
-    <h3>shopping cart</h3>
-    <p> <a href="home.php">home</a> / cart </p>
+    <h3>Shopping Cart</h3>
+    <p> <a href="home.php">Home</a> / Cart </p>
 </section>
 
 <section class="shopping-cart">
 
-    <h1 class="title">products added</h1>
+    <h1 class="title">Products Added</h1>
 
     <div class="box-container">
 
@@ -74,13 +74,12 @@ if(isset($_POST['update_quantity'])){
                 $fetch_event_pack = mysqli_fetch_assoc($select_event_pack);
     ?>  
     <div  class="box">
-        <a href="cart.php?delete=<?php echo $fetch_cart['id']; ?>" class="fas fa-times" onclick="return confirm('delete this from cart?');"></a>
-        <a href="view_page.php?pid=<?php echo $fetch_cart['pid']; ?>" class="fas fa-eye"></a>
+        
         <img src="uploaded_img/<?php echo $fetch_event['image']; ?>" alt="" class="image">
         <div class="event_type"><?php echo $fetch_event['event_type']; ?></div>
         <div class="name"><?php echo $fetch_event['name']; ?></div>
-        <div class="pack"><?php echo $fetch_cart['event_type']; ?> package</div>
-        <div class="sub-total"> sub-total : <span>Rs<?php echo $sub_total = $fetch_event_pack['price'];?>/-</span> </div>
+        <div class="pack"><?php echo $fetch_cart['event_type']; ?> Package</div>
+        <div class="sub-total"> Sub-total : <span>Rs. <?php echo $sub_total = $fetch_event_pack['price'];?>/-</span> </div>
     </div>
     <?php
     $grand_total += $sub_total;
@@ -96,9 +95,9 @@ if(isset($_POST['update_quantity'])){
     </div>
 
     <div class="cart-total">
-        <p>grand total : <span>Rs<?php echo $grand_total; ?>/-</span></p>
-        <a href="shop.php" class="option-btn">continue shopping</a>
-        <a href="before_checkout.php" class="btn  <?php echo ($grand_total > 1)?'':'disabled' ?>">proceed to checkout</a>
+        <p>Total : <span>Rs<?php echo $grand_total; ?>/-</span></p>
+        <a href="shop.php" class="btn">Continue Shopping</a>
+        <a href="before_checkout.php" class="btn  <?php echo ($grand_total > 1)?'':'disabled' ?>">Proceed to Checkout</a>
     </div>
 
 </section>

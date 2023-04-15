@@ -55,7 +55,7 @@ if(isset($_GET['delete_all'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>wishlist</title>
+   <title>Wishlist</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -70,12 +70,12 @@ if(isset($_GET['delete_all'])){
 
 <section class="heading">
     <h3>your wishlist</h3>
-    <p> <a href="home.php">home</a> / wishlist </p>
+    <p> <a href="home.php">Home</a> / Wishlist </p>
 </section>
 
 <section class="wishlist">
 
-    <h1 class="title">products added</h1>
+    <h1 class="title">Products Added</h1>
 
     <div class="box-container">
 
@@ -108,9 +108,9 @@ if(isset($_GET['delete_all'])){
     </div>
 
     <div class="wishlist-total">
-        <p>grand total : <span>$<?php echo $grand_total; ?>/-</span></p>
-        <a href="shop.php" class="option-btn">continue shopping</a>
-        <a href="wishlist.php?delete_all" class="delete-btn <?php echo ($grand_total > 1)?'':'disabled' ?>" onclick="return confirm('delete all from wishlist?');">delete all</a>
+        <p>Total : <span>$<?php echo $grand_total; ?>/-</span></p>
+        <a href="shop.php" class="option-btn">Continue Shopping</a>
+        <a href="wishlist.php?delete_all" class="delete-btn <?php echo ($grand_total > 1)?'':'disabled' ?>" onclick="return confirm('delete all from wishlist?');">Delete All</a>
     </div>
 
 </section>
