@@ -253,7 +253,7 @@ section{
 
 */
 
-.form-container {
+.form-container form{
    background-color: #fff;
    border-radius: 5px;
    box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -265,18 +265,18 @@ section{
    margin-top: 20px;
  }
  
- .form-container h3 {
+ .form-container form h3 {
    text-align: center;
    margin-bottom: 20px;
  }
  
- .form-container label {
+ .form-container form label {
    display: block;
    font-weight: bold;
    margin-bottom: 10px;
  }
  
- .form-container .box {
+ .form-container form .box {
    display: block;
    width: 100%;
    padding: 10px;
@@ -285,7 +285,7 @@ section{
    margin-bottom: 20px;
  }
  
- .form-container .btn {
+ .form-container form .btn {
    display: block;
    width: 100%;
    padding: 10px;
@@ -298,15 +298,15 @@ section{
    font-size: 16px;
  }
  
- .form-container p {
+ .form-container form p {
    text-align: center;
  }
  
- .form-container a {
+ .form-container form a {
    color: #4CAF50;
  }
  
- .form-container a:hover {
+ .form-container form a:hover {
    text-decoration: underline;
  }
 /*This is css styles for register_planners.php and register.php 
@@ -391,7 +391,7 @@ section{
 
  
  
- label {
+.form-container-register form .label {
    font-size: 16px;
    font-weight: 600;
    margin-bottom: 10px;
@@ -429,18 +429,18 @@ section{
    background-color: #3e8e41;
  }
  
- p {
+ .form-container-register form .p {
    margin-top: 5px;
    font-size: 14px;
    padding-left: 54px;
    
  }
  
- a {
+ .form-container-register form .a {
    color: #4CAF50;
  }
  
- .box {
+ ..form-container-register form .box {
    margin-bottom: 10px;
  }
 /*This is css styles for header.php
@@ -666,7 +666,7 @@ section{
    display: flex;
 }
 #hero .col1 form .box{
-   width:300px;
+   width:310px;
    height:45px;
    background:#D5D2D2;
    outline:none;
@@ -674,6 +674,8 @@ section{
    border-bottom-left-radius: 10px;
    font-size: 12.5px;
    padding-left: 15px;
+   margin-top: 5px;
+   padding-right: 0px;
    
 }
 #hero .col1 form .btn{
@@ -681,7 +683,7 @@ section{
    height:45px;
    background:#355B57;
    color:#fff;
-   margin:0;
+   margin-top: 5px;
    text-align: left;
    border-top-left-radius: 0px;
    border-bottom-left-radius: 0px;
@@ -785,6 +787,7 @@ section{
    color:var(--white);
 }
 
+/*
 .products .box-container{
    max-width: 1500px;
    margin:0 auto;
@@ -850,12 +853,92 @@ section{
    color: var(--green);
 }
 
-
+*/
 
 .products .box-container .box .btn,
 .products .box-container .box .option-btn{
    width: 100%;
 }
+
+
+
+.products .box-container {
+   margin: 0 auto;
+   max-width: 1600px;
+ }
+ 
+ .title {
+   font-size: 34px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .products .box-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ .products .box-container .box {
+   display: flex;
+   flex-direction: column;
+   width: 280px;
+   margin: 20px;
+   background-color: #f1f1f1;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   transition: box-shadow 0.3s ease-in-out;
+ }
+ 
+ .products .box-container .box:hover {
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .products .box-container .image {
+   max-width: 100%;
+   height: 160px;
+   margin-bottom: 10px;
+ }
+ 
+ .products .box-container .name {
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 10px;
+   color: #355B57;
+   height: 120px;
+   bottom:2rem; left:24rem;
+ }
+ 
+ .products .box-container .price {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 10px;
+   color: #4CAF50;
+   
+ }
+ 
+ .products .box-container .box .e-image {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-right: 10px;
+   display: flex;
+   bottom:2.5rem; right:8rem;
+   
+ }
+ 
+ .products .box-container .box .e-name {
+   font-size: 16px;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+
+ }
 
 .quick-view .p-details{
    margin:-2rem 8rem;

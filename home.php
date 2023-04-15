@@ -128,7 +128,7 @@ if(!isset($user_id)){
             </div>
         </div>
     </section>
-<section class="home">
+<!-- <section class="home">
    <div class="content">
       <h3>new Events</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis, modi placeat sit cumque molestiae.</p>
@@ -136,6 +136,8 @@ if(!isset($user_id)){
    </div>
 
 </section>
+
+-->
 
 <section class="products">
 
