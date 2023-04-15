@@ -521,7 +521,7 @@ section{
 .header .flex .navbar ul li .set1{
    position: absolute;
    left:0;
-   width: 30rem;
+   width: 40rem;
    height:35rem;
    background-color: var(--white);
    animation: fadeIn .2s linear;
@@ -788,7 +788,7 @@ section{
 }
 
 /*
-.products .box-container{
+.events .products .box-container{
    max-width: 1500px;
    margin:0 auto;
    display: grid;
@@ -798,7 +798,7 @@ section{
    justify-content: center;
 }
 
-.products .box-container .box{
+.events .products .box-container .box{
    background-color: var(--white);
    border:var(--border);
    box-shadow: var(--box-shadow);
@@ -808,7 +808,7 @@ section{
    position: relative;
 }
 
-.products .box-container .box .image{
+.events .products .box-container .box .image{
    height: 20rem;
    width: 30rem;
    object-fit: cover;
@@ -817,13 +817,13 @@ section{
 
 
 
-.products .box-container .box .price{
+.events .products .box-container .box .price{
    font-size: 1.6rem;
    padding:1rem;
    color:var(--black);
    
 }
-.products .box-container .box .e-image{
+.events .products .box-container .box .e-image{
    position: absolute;
    bottom:2.5rem; right:8rem;
    border-radius: 50%;
@@ -831,7 +831,7 @@ section{
    height:10%;
    
 }
-.products .box-container .box .e-name{
+.events .products .box-container .box .e-name{
    position: absolute;
    bottom:2rem; left:24rem;
    color:var(--light-color);
@@ -842,12 +842,12 @@ section{
 
 
 
-.products .box-container .box .name{
+.events .products .box-container .box .name{
    margin:1rem;
    font-size: 1.6rem;
    color:var(--light-color);
 }
-.products .box-container .box .name:hover{
+.events .products .box-container .box .name:hover{
    text-decoration: underline;
    cursor: pointer;
    color: var(--green);
@@ -855,10 +855,10 @@ section{
 
 */
 
-.products .box-container .box .btn,
-.products .box-container .box .option-btn{
-   width: 100%;
-}
+
+
+
+
 
 
 
@@ -1197,6 +1197,7 @@ section{
 .home-contact .content{
    max-width: 50rem;
    margin:0 auto;
+   
 }
 
 .home-contact .content h3{
@@ -1998,13 +1999,15 @@ section{
 }
 
 .events .flex .products .box-container .box{
-   background-color: var(--white);
-   border:var(--border);
+   background-color: #f1f1f1;
+   
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
    padding:2rem;
    height:30rem;
    width:30rem;
+   position: relative;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    
 }
 
@@ -2020,14 +2023,19 @@ section{
 .events .flex .products .box-container .box .price{
    font-size: 1.6rem;
    padding:1rem;
+   padding-right: 150px;
    color:var(--black);
-   
+   justify-content: start;
+   align-items: start;
+   margin-bottom: 0px;
 }
 .events .flex .products .box-container .box .e-image{
    position: absolute;
    bottom:2.5rem; right:8rem;
    border-radius: 50%;
    width:10%;
+   height: 10%;
+   
    
 }
 .events .flex .products .box-container .box .e-name{
@@ -2036,6 +2044,8 @@ section{
    color:var(--light-color);
    padding:1rem;
    font-size: 1.5rem; 
+   margin-right: 50px;
+
    
 }
 
@@ -2045,6 +2055,9 @@ section{
    margin:1rem;
    font-size: 1.6rem;
    color:var(--light-color);
+   height: 37px;
+   color: #355B57;
+   
 }
 .events .flex .products .box-container .box .name:hover{
    text-decoration: underline;

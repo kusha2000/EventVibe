@@ -193,8 +193,8 @@ if(!isset($user_id)){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia aliquam quis saepe? Quia, libero.</p>
-      <a href="contact.php" class="btn">contact us</a>
+      <p>We're here to help! Our friendly and knowledgeable customer support team is available to assist you with any questions or concerns you may have. Whether you need help with placing an order or simply have a question about our products or services, we're here to ensure your experience with us is a positive one. Contact us today and let us know how we can assist you.</p>
+      <a href="contact.php" class="btn">Contact Us</a>
    </div>
 
 </section>
