@@ -252,6 +252,8 @@ if(!isset($user_id)){
                     
                     <input type="hidden" value="<?=$fetch_product_type['type'] ?>" name="pac_type" class="btn buy-button">
                     <input type="submit" value="Buy Package" name="add_to_cart" class="btn buy-button">
+                    <input type="hidden" value="<?=$fetch_product_type['type'] ?>" name="pac_type" class="btn contact-button">
+                    <input type="submit" value="Contact Event Planner" name="add_to_cart" class="btn contact-button">
                 </form>
                 <?php
                     }

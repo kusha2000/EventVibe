@@ -1021,7 +1021,7 @@ section{
    width:700px;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   border: var(--border);
+   
    
 }
 .quick-view .p-details .pics .grid .row {
@@ -1042,8 +1042,15 @@ section{
    vertical-align: middle;
    height:220px;
    width:300px;
-   border: var(--border);
    margin-bottom: 10px;
+ }
+
+ .quick-view .p-details .pics .grid .row .column img {
+   vertical-align: middle;
+   height:220px;
+   width:300px;
+   margin-bottom: 10px;
+   
  }
 
 
@@ -1065,10 +1072,11 @@ section{
    
  }
 .quick-view .p-details .third-sec .aboutme .des{
-   font-size: 1.5rem;
+   font-size: 18px;
    padding: 1rem;
    color:var(--black);
    border-top: 0.3rem solid #666;
+   text-align: justify;
 
  }
 .quick-view .p-details .third-sec .packs{
@@ -1095,20 +1103,21 @@ section{
    /*border-radius: 3rem;*/
    background-color: var(--black);
    margin-left: 10rem;
-   margin-top: 2rem;
+   margin-top: 1rem;
    position: relative;
+   border-radius: 10px;
 }
  .quick-view .p-details .third-sec .packs form .select-pack{
    width: 50rem;
-   
    margin-top: -3.1rem;
    margin-left: -2rem;
    
 }
  .quick-view .p-details .third-sec .packs form .select-pack .basic-btn{
    width: 16rem;
-   height: 5rem;
+   height: 6rem;
    background-color: #333;
+   margin-top: 13px;
    
 }
  .quick-view .p-details .third-sec .packs form .select-pack .basic-btn:hover{
@@ -1118,8 +1127,9 @@ section{
 
  .quick-view .p-details .third-sec .packs form .select-pack .standard-btn{
    width: 17rem;
-   height: 5rem;
+   height: 6rem;
    background-color: #B6B6B6;
+   margin-top: 13px;
    
 }
 .quick-view .p-details .third-sec .packs form .select-pack .standard-btn:hover{
@@ -1129,8 +1139,9 @@ section{
 
  .quick-view .p-details .third-sec .packs form .select-pack .premium-btn{
    width: 16rem;
-   height: 5rem;
+   height: 6rem;
    background-color: #B6B6B6;
+   margin-top: 13px;
    
    
 }
@@ -1157,14 +1168,14 @@ section{
    margin-bottom: 2rem;
 }
 .quick-view .p-details .third-sec .packs form span{
-   font-size: 2.5rem;
+   font-size: 2.0rem;
    color:#0BDDC7;
    font-weight: 600;
    padding: 0;
    
 }
 .quick-view .p-details .third-sec .packs form .include{
-   font-size: 2rem;
+   font-size: 1.5rem;
    color:var(--white);
    font-weight: 600;
    padding-top: 2rem;
@@ -1176,11 +1187,25 @@ section{
    position: absolute;
    bottom: 0;
    left:0;
-   width: 17rem;
+   width: 20rem;
    height: 5rem;
    background-color: var(--orange);
+   margin-left: 40px;
+   margin-bottom: 30px;
    
 }
+
+.quick-view .p-details .third-sec .packs form .contact-button{
+   position: absolute;
+   bottom: 0;
+   left:0;
+   width: 20rem;
+   height: 5rem;
+   background-color: #4CAF50;
+   margin-left: 250px;
+   margin-bottom: 30px;
+}
+
 .quick-view .p-details .third-sec .packs form .buy-button:hover{
    color:var(--black);
    background-color: var(--light-white);
@@ -2028,6 +2053,7 @@ section{
    justify-content: start;
    align-items: start;
    margin-bottom: 0px;
+   color: #4CAF50;
 }
 .events .flex .products .box-container .box .e-image{
    position: absolute;
