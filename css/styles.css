@@ -1666,10 +1666,12 @@ section{
 
 }
 .before-checkout .flex .check .pay-option .row:hover{
-   background-color: var(--light-color);
+   background-color: white;
 }
 .before-checkout .flex .check .pay-option .row:hover .col1 img{
    display: inline-block;
+   width: 60px;
+   padding-left: 20px;
 }
 .before-checkout .flex .check .pay-option .col1 img{
    display: none;
@@ -1763,7 +1765,7 @@ section{
 }
 
 .checkout form{
-   background-color: var(--black);
+   background-color: white;
    border:var(--border);
    max-width: 1200px;
    margin:0 auto;
@@ -1774,10 +1776,10 @@ section{
 
 .checkout form h3{
    padding:1.5rem;
-   font-size: 2.5rem;
+   font-size: 3.0rem;
    margin-bottom: 2rem;
    background-color: var(--white);
-   color:var(--black);
+   color:#355B57;
    border-radius: .5rem;
    text-align: center;
    text-transform: capitalize;
@@ -1807,7 +1809,7 @@ section{
 
 .checkout form .flex .inputBox span{
    font-size: 2rem;
-   color:var(--orange);
+   color:#4CAF50;
 }
 .checkout form .btn{
    margin-left:42%;

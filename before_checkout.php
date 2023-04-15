@@ -237,60 +237,60 @@ if(isset($_POST['order'])){
 
     <form action="" method="POST">
 
-        <h3>place your order</h3>
+        <h3>Place your Order</h3>
         <?php
             $select_user_details = mysqli_query($conn, "SELECT * FROM `users` WHERE id='$user_id' ") or die('query failed');
             $fetch_user_details = mysqli_fetch_assoc($select_user_details);
         ?>
         <div class="flex">
             <div class="inputBox">
-                <span>your name :</span>
-                <input type="text" name="name" placeholder="enter your name" value="<?=$fetch_user_details['name'] ?>" disabled>
+                <span>Name :</span>
+                <input type="text" name="name" placeholder="Enter your name" value="<?=$fetch_user_details['name'] ?>" disabled>
             </div>
             <div class="inputBox">
-                <span>your tel no :</span>
-                <input type="number" name="number" min="0" placeholder="enter your telephone number" value="<?=$fetch_user_details['t_no'] ?>" disabled>
+                <span>Tel No :</span>
+                <input type="number" name="number" min="0" placeholder="Enter your telephone number" value="<?=$fetch_user_details['t_no'] ?>" disabled>
             </div>
             <div class="inputBox">
-                <span>your email :</span>
-                <input type="email" name="email" placeholder="enter your email" value="<?=$fetch_user_details['email'] ?>" disabled>
+                <span>Email :</span>
+                <input type="email" name="email" placeholder="Enter your email" value="<?=$fetch_user_details['email'] ?>" disabled>
             </div>
             <div class="inputBox">
-                <span>payment method :</span>
+                <span>Payment Method :</span>
                 <select name="method" disabled>
                     <option value="after event">After Event</option>
-                    <option value="credit card">credit card</option>
-                    <option value="paypal">paypal</option>
-                    <option value="paytm">paytm</option>
+                    <option value="credit card">Credit Card</option>
+                    <option value="paypal">Paypal</option>
+                    <option value="paytm">Paytm</option>
                 </select>
             </div>
             <div class="inputBox">
-                <span>address line 01 :</span>
+                <span>Address Line 01 :</span>
                 <input type="text" required name="flat" placeholder="e.g. flat no.">
             </div>
             <div class="inputBox">
-                <span>address line 02 :</span>
-                <input type="text" required name="street" placeholder="e.g.  streen name">
+                <span>Address Line 02 :</span>
+                <input type="text" required name="street" placeholder="e.g.  street name">
             </div>
             <div class="inputBox">
-                <span>state :</span>
-                <input type="text" required name="state" placeholder="e.g. kottawa">
+                <span>State :</span>
+                <input type="text" required name="state" placeholder="e.g. Kottawa">
             </div>
             <div class="inputBox">
-                <span>city :</span>
-                <input type="text" required name="city" placeholder="e.g. colombo">
+                <span>City :</span>
+                <input type="text" required name="city" placeholder="e.g. Colombo">
             </div>
             <div class="inputBox">
                 <span>Event Date :</span>
                 <input type="date" required name="date" placeholder="Enter your event date">
             </div>
             <div class="inputBox">
-                <span>Participations :</span>
-                <input type="text" required name="amount" placeholder="Enter the amount of participations">
+                <span>Participants :</span>
+                <input type="text" required name="amount" placeholder="Enter the amount of participants">
             </div>
         </div>
 
-        <input type="submit" name="order" value="order now" class="btn" >
+        <input type="submit" name="order" value="Order Now" class="btn" >
 
     </form>
 
