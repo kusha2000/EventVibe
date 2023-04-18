@@ -20,9 +20,9 @@
 
         <div class="box">
             <h3>Contact Info</h3>
-            <p> <i class="fas fa-phone"></i> +94 717899721 </p>
-            <p> <i class="fas fa-phone"></i> +94 767822322 </p>
-            <p> <i class="fas fa-envelope"></i> syntax_error@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +94 767364349 </p>
+            <p> <i class="fas fa-phone"></i> +94 714249784 </p>
+            <p> <i class="fas fa-envelope"></i> dulanya2001@gmail.com </p>
             <p> <i class="fas fa-map-marker-alt"></i> sabaragumuwa university </p>
         </div>
 
