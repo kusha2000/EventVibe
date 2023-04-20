@@ -4,7 +4,8 @@
 //$conn = mysqli_connect('jdbc:mysql://sql12.freesqldatabase.com:3306/sql12607400','sql12607400','QW8AK47F1q','eventvibe');
 //$conn = mysqli_connect('sql12.freesqldatabase.com','sql12610108','tzklByQlqj','sql12610108');
 //$conn = mysqli_connect('mysql-120194-0.cloudclusters.net','admin','vDmxpQUR','eventVibe');
-$conn = new mysqli('mysql-120194-0.cloudclusters.net','admin','vDmxpQUR','eventVibe',10090);
+//$conn = new mysqli('mysql-120194-0.cloudclusters.net','admin','vDmxpQUR','eventVibe',10090);
+$conn = new mysqli('mysql-122386-0.cloudclusters.net','admin','04ZGEsaP','eventVibe',10150);
 
 
 /*try{
