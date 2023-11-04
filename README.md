@@ -1,5 +1,29 @@
 # EventVibe
-The Event Management System is a web-based platform designed to simplify event planning and organization. Event planners can register on the website and post details about a wide range of events, including weddings, birthday parties, trade shows, and more. Users can discover these events and choose from different packages offered by event planners, enhancing their event experience. The system is built using HTML, CSS, JavaScript for the front-end, PHP for the back-end, and utilizes a MySQL database for data storage. It provides a user-friendly interface for both event planners and users to interact with, allowing for event posting, searching, and package selection. This project aims to streamline the event planning process, making it easy for users to find and customize their events while helping event planners reach a wider audience.
+The Event Management System is a web-based platform designed to simplify event planning and organization. Event planners can register on the website and post details about a wide range of events, including weddings, birthday parties, trade shows, and more. Users can discover these events and choose from different packages offered by event planners, enhancing their event experience. It provides a user-friendly interface for both event planners and users to interact with, allowing for event posting, searching, and package selection. This project aims to streamline the event planning process, making it easy for users to find and customize their events while helping event planners reach a wider audience.
+
+<ul>
+<li>
+User Registration and Authentication: Event planners can create accounts on the website by registering with their details. User authentication ensures that user data remains secure and personalized.
+ </li><li>
+Event Posting: Event planners can post details about a wide variety of events, including weddings, birthday parties, trade shows, conferences, and more. They provide event descriptions, images, and relevant information to attract potential customers. This functionality allows event planners to showcase their services effectively.
+ </li><li>
+Event Search: Users can easily search for events based on their preferences. They can filter and sort events by various criteria such as event type, date, location, and package availability. This feature simplifies the process of discovering events that match their requirements.
+ </li><li>
+Package Selection: Event planners can offer different event packages, allowing users to select from a range of options that suit their needs and budgets. Users can browse and choose packages that best fit their event requirements, making customization easy.
+ </li><li>
+Package Purchase: Users can buy event packages directly through the website. The ordering process includes a shopping cart, order confirmation, and secure payment integration, ensuring a seamless and safe transaction experience.
+ </li><li>
+Event Planner Pages: Event planners have access to dedicated pages where they can manage their posted events, packages, and communicate with potential customers. This feature simplifies the planning and organization process for service providers.
+ </li><li>
+Admin Panel: The system includes an admin panel for system administrators to manage user accounts, oversee event postings, and ensure the platform's integrity and security. Admins can moderate content, resolve disputes, and maintain the quality of the platform.
+ </li>
+</ul>
+Technologies <br>
+---------------
+
+Frontend - HTML, CSS, and JavaScript<br>
+Backend  - PHP and JavaScript <br>
+Database - MySQL 
 
 <u><b>Demo of the project<b><u/>
 
