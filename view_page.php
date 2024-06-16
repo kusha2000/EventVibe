@@ -284,7 +284,7 @@ if(!isset($user_id)){
 
 <?php @include 'footer.php'; ?>
 
-<script src="js/script.js"></scrip>
+<script src="js/script.js"></script>
 
 </body>
 </html>

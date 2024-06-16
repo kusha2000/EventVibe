@@ -325,7 +325,8 @@ section{
 }
 
 .show-products .box-container .box .image{
-   height: 30rem;
+   height: 20rem;
+   width: 20rem;
    margin-bottom: .5rem;
 }
 

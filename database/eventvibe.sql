@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 22, 2023 at 02:11 AM
+-- Generation Time: Jun 16, 2024 at 07:47 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -34,7 +34,16 @@ CREATE TABLE IF NOT EXISTS `cart` (
   `pid` int(100) NOT NULL,
   `event_type` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `cart`
+--
+
+INSERT INTO `cart` (`id`, `user_id`, `pid`, `event_type`) VALUES
+(34, 19, 3, 'premium'),
+(33, 17, 10, 'basic'),
+(32, 2, 2, 'basic');
 
 -- --------------------------------------------------------
 
@@ -87,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `pid` int(11) NOT NULL,
   `package` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `orders`
@@ -101,7 +110,8 @@ INSERT INTO `orders` (`id`, `user_id`, `name`, `number`, `email`, `method`, `add
 (9, 2, 'kushan', '0714212369', 'user2@ka.com', 'after event', '105, nisshanka mawatha, malkaduwawa, kurunegala', '2023-04-05', 100, 1, 20000, '21-Mar-2023', 'pending', 1, 0, ''),
 (10, 2, 'kapila', '0712323655', 'user2@ka.com', 'after event', '399, ilawatha road, narammala, kurunegala', '2023-05-06', 200, 1, 10002, '21-Mar-2023', 'pending', 1, 27, 'premium'),
 (11, 2, 'manethra', '714249784', 'user2@ka.com', 'after event', '105, kumal mawatha, wehera, kurunegala', '2023-04-06', 450, 1, 20000, '21-Mar-2023', 'pending', 7, 2, 'premium'),
-(12, 2, 'manethra', '714249784', 'user2@ka.com', 'after event', 'dda, sda, asdas, asd', '2222-03-03', 444, 2, 56900, '21-Mar-2023', 'pending', 1, 5, 'basic');
+(12, 2, 'manethra', '714249784', 'user2@ka.com', 'after event', 'dda, sda, asdas, asd', '2222-03-03', 444, 2, 56900, '21-Mar-2023', 'pending', 1, 5, 'basic'),
+(13, 2, 'manethra', '714249784', 'user2@ka.com', 'after event', 'qqs, sq, qs2q, qsqs', '1111-02-21', 90, 3, 30000, '03-Nov-2023', 'pending', 7, 2, 'basic');
 
 -- --------------------------------------------------------
 
@@ -219,7 +229,7 @@ CREATE TABLE IF NOT EXISTS `products` (
 INSERT INTO `products` (`id`, `name`, `details`, `price`, `event_type`, `subcategorie`, `district`, `image`, `image1`, `image2`, `image3`, `image4`, `planner_id`) VALUES
 (27, 'Galas Awarding ceremony many nm more nm max min more', 'this is gala event', 6000, 'Galas and award ceremonies', 'Bohemian', 'All Districts', 'gal6.jpg', 'gal7.jpg', 'gal8.jpg', 'gal10.jpg', 'gal15.jpg', 1),
 (2, 'I will take care of your special wedding day', 'This is event details', 4000, 'Weddings', 'Traditional', 'Colombo', 'wed29.jpg', 'wed3.png', 'wed4.png', 'wed5.png', 'wed6.png', 7),
-(3, 'Get your wedding planned by an industry professional', 'This is wedding 3', 7500, 'Weddings', 'Luxury', 'Colombo', 'wed24.jpg', 'wed7.png', 'wed8.png', 'wed9.jpg', 'wed10.jpg', 1),
+(3, 'Get your wedding planned by an industry professional', 'This is wedding 3', 7500, 'Weddings', 'Bohemian', 'Colombo', 'wed24.jpg', 'wed7.png', 'wed8.png', 'wed9.jpg', 'wed10.jpg', 1),
 (4, 'I will plan the perfect beach wedding for you', 'this is wedding 4', 7500, 'Weddings', 'Rustic', 'Kurunegala', 'wed11.png', 'wed12.jpg', 'wed13.jpg', 'wed20.jpg', 'wed14.jpg', 4),
 (5, 'Destination wedding planning', 'This is wedding 5', 6900, 'Weddings', 'Eco friendly', 'All Districts', 'wed16.jpg', 'wed17.jpg', 'wed18.jpg', 'wed19.jpg', 'wed30.jpg', 1),
 (6, 'Full service wedding planning taken care by a professional', 'This is wedding 6', 8000, 'Weddings', 'Destination', 'Galle', 'wed21.jpg', 'wed22.jpg', 'wed23.jpg', 'wed24.jpg', 'wed25.jpg', 7),
@@ -253,7 +263,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `image` varchar(100) NOT NULL DEFAULT 'default.jpg',
   `about` varchar(10000) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
@@ -267,7 +277,11 @@ INSERT INTO `users` (`id`, `f_name`, `l_name`, `nic`, `t_no`, `name`, `email`, `
 (5, 'Nimali', 'Rathnayaka', '199752364517', 754123856, 'nimalrath', 'user5@ka.com', '202cb962ac59075b964b07152d234b70', 'user', 'pic-4.png', ''),
 (6, 'admin', 'admin', '000000000000', 0, 'admin', 'admin@ka.com', '202cb962ac59075b964b07152d234b70', 'admin', 'admin.jpg', 'i\'m the admin of this web site'),
 (7, 'Wasana', 'Amarathunga', '200244567841', 704125369, 'Wasana02', 'planner7@ka.com', '202cb962ac59075b964b07152d234b70', 'planner', 'pic-6.png', 'Hi there, I\'m Wasana, an event planner with a passion for creating magical beach weddings. Growing up near the coast, I\'ve always been drawn to the natural beauty and tranquility of the beach, and I feel fortunate to have turned this passion into a career.\r\n\r\nI studied event management in college and quickly discovered that my true calling was in helping couples plan their dream beach weddings. Over the past decade, I\'ve developed a reputation for my attention to detail, creativity, and ability to work under pressure.\r\n\r\nWhen I work with a couple, I take a collaborative and hands-on approach. I take the time to get to know them and their vision for their special day, and then use my expertise to bring that vision to life. I have a keen eye for design and work closely with my trusted vendors to create stunning floral arrangements, decor, and lighting that perfectly complement the beach setting.\r\n\r\nFrom sourcing the perfect beachfront location to coordinating the wedding day timeline, I take care of every detail to ensure a stress-free experience for the couple and their guests. I\'m known for my excellent communication skills, professionalism, and ability to handle unexpected challenges with ease.\r\n\r\nIt\'s an honor to be a part of such an important moment in a couple\'s life, and I take that responsibility very seriously. With me as their event planner, couples can relax and enjoy their special day, knowing that every detail has been taken care of and that their beach wedding will be truly unforgettable.'),
-(15, 'Navindu', 'Kumara', '200001212356', 124578456, 'navindu', 'planner15@ka.com', '202cb962ac59075b964b07152d234b70', 'planner', 'default.jpg', '');
+(15, 'Navindu', 'Kumara', '200001212356', 124578456, 'navindu', 'planner15@ka.com', '202cb962ac59075b964b07152d234b70', 'planner', 'default.jpg', ''),
+(17, 'kushan', 'asassa', '3123', 12321, 'kushan', 'kushan@gmail.com', '202cb962ac59075b964b07152d234b70', 'user', 'default.jpg', 'hi'),
+(18, 'nimal', 'Andarawewa', '112', 212, 'nimal', 'nimal@gmail.com', '202cb962ac59075b964b07152d234b70', 'planner', 'default.jpg', 'sdad'),
+(19, 'kushan', 'manethra', '222222', 12345578, 'kushanu', 'testu@gmail.com', '202cb962ac59075b964b07152d234b70', 'user', 'default.jpg', 'hi'),
+(20, 'kushan', 'andarawewa', '2121212', 12113113, 'kushanP', 'testp@gmail.com', '202cb962ac59075b964b07152d234b70', 'planner', 'default.jpg', 'hi');
 
 -- --------------------------------------------------------
 
