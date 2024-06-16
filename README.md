@@ -25,46 +25,47 @@ Frontend - HTML, CSS, and JavaScript<br>
 Backend  - PHP and JavaScript <br>
 Database - MySQL 
 
-<u><b>Demo of the project<b><u/>
+<h2>This is the Full Demo of the project</h2><br><br>
 
 ![Untitled video - Made with Clipchamp 00_00_00-00_00_30](https://github.com/kusha2000/EventVibe/assets/127003267/4431f634-f5c7-47bd-87b4-add37ef6170a)
 
-<b><u>This is the screenshots of our web site.</u><b>
+<br><br>
+<h2>This is the screenshots of the system</h2><br><br>
 
-The Login and Signup pages
+The Login and Signup pages<br>
 
-![Screenshot (337)](https://github.com/kusha2000/EventVibe/assets/127003267/4b2131a9-3d12-447a-85cd-06654185161e)
+![Screenshot (337)](https://github.com/kusha2000/EventVibe/assets/127003267/4b2131a9-3d12-447a-85cd-06654185161e)<br><br>
 
-![Screenshot (350)](https://github.com/kusha2000/EventVibe/assets/127003267/2f3e0ed0-b057-4551-8328-2ac440625586)
+![Screenshot (350)](https://github.com/kusha2000/EventVibe/assets/127003267/2f3e0ed0-b057-4551-8328-2ac440625586)<br><br>
 
-The Home Page
+The Home Page<br>
 
-![Screenshot (340)](https://github.com/kusha2000/EventVibe/assets/127003267/f846c27e-2883-4b5d-b3b6-43fbfb1977c3)
+![Screenshot (340)](https://github.com/kusha2000/EventVibe/assets/127003267/f846c27e-2883-4b5d-b3b6-43fbfb1977c3)<br><br>
 
-![Screenshot (341)](https://github.com/kusha2000/EventVibe/assets/127003267/8063e175-8743-46a2-b850-0b8e8052fa3d)
+![Screenshot (341)](https://github.com/kusha2000/EventVibe/assets/127003267/8063e175-8743-46a2-b850-0b8e8052fa3d)<br><br>
 
-![Screenshot (344)](https://github.com/kusha2000/EventVibe/assets/127003267/05ea2fef-4a4e-4212-ac7a-510a9523031b)
+![Screenshot (344)](https://github.com/kusha2000/EventVibe/assets/127003267/05ea2fef-4a4e-4212-ac7a-510a9523031b)<br><br>
 
-![Screenshot (343)](https://github.com/kusha2000/EventVibe/assets/127003267/da5d751d-c40a-42b3-ac87-27b2c293d799)
+![Screenshot (343)](https://github.com/kusha2000/EventVibe/assets/127003267/da5d751d-c40a-42b3-ac87-27b2c293d799)<br><br>
 
-The Product Page
+The Product Page<br>
 
-![Screenshot (345)](https://github.com/kusha2000/EventVibe/assets/127003267/0bec63eb-3313-4a32-aa16-e91892497d85)
+![Screenshot (345)](https://github.com/kusha2000/EventVibe/assets/127003267/0bec63eb-3313-4a32-aa16-e91892497d85)<br><br>
 
-![Screenshot (346)](https://github.com/kusha2000/EventVibe/assets/127003267/f1b2843c-47be-4d63-8cae-cb823f6eb7b8)
+![Screenshot (346)](https://github.com/kusha2000/EventVibe/assets/127003267/f1b2843c-47be-4d63-8cae-cb823f6eb7b8)<br><br>
 
-![Screenshot (347)](https://github.com/kusha2000/EventVibe/assets/127003267/167e61cc-e494-4cb2-83b1-e9feb9a0429a)
+![Screenshot (347)](https://github.com/kusha2000/EventVibe/assets/127003267/167e61cc-e494-4cb2-83b1-e9feb9a0429a)<br><br>
 
-![Screenshot (348)](https://github.com/kusha2000/EventVibe/assets/127003267/d6e2b4d8-bbe9-4797-90b2-36e50a215d8e)
+![Screenshot (348)](https://github.com/kusha2000/EventVibe/assets/127003267/d6e2b4d8-bbe9-4797-90b2-36e50a215d8e)<br><br>
 
-The Planner Page
+The Planner Page<br>
 
-![Screenshot (353)](https://github.com/kusha2000/EventVibe/assets/127003267/545c6596-57a9-46d9-baf7-1b23f9eb568d)
+![Screenshot (353)](https://github.com/kusha2000/EventVibe/assets/127003267/545c6596-57a9-46d9-baf7-1b23f9eb568d)<br><br>
 
-![Screenshot (351)](https://github.com/kusha2000/EventVibe/assets/127003267/ec9696f0-0a63-450a-8622-f2926b9fca65)
+![Screenshot (351)](https://github.com/kusha2000/EventVibe/assets/127003267/ec9696f0-0a63-450a-8622-f2926b9fca65)<br><br>
 
-![Screenshot (352)](https://github.com/kusha2000/EventVibe/assets/127003267/61d5555c-780e-49fc-9ac4-f97b7596153d)
+![Screenshot (352)](https://github.com/kusha2000/EventVibe/assets/127003267/61d5555c-780e-49fc-9ac4-f97b7596153d)<br><br>
 
-The admin Page
+The admin Page<br>
 
-![Screenshot (349)](https://github.com/kusha2000/EventVibe/assets/127003267/ed835d68-16c9-4d13-bf02-a39ce9256ef5)
+![Screenshot (349)](https://github.com/kusha2000/EventVibe/assets/127003267/ed835d68-16c9-4d13-bf02-a39ce9256ef5)<br><br>
